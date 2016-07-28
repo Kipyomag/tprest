@@ -1,0 +1,20 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#viz {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.selected {
+  padding: 10px;
+  margin: 10px;
+  background-color: #c3413d;
+}
+
+#map {
+  height: 50%;
+}

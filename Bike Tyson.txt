@@ -1,0 +1,25 @@
+﻿Bike Tyson
+
+
+Vous devez mettre en place une application permettant de trouver les stations de vélos (Bicloo, Vélib, etc...) 
+dans une ville si le système est mis en place.
+
+Vous irez pour cela interroger l'API de JCDecaux ici: https://developer.jcdecaux.com/#/home.
+Attention! Pas de chargement du fichier de données mais accès direct via l'API !
+
+
+Vous interrogerez l'API pour récuperer les contrats uniquement français et 
+en tirerez une liste déroulante des villes affichée par ordre alphabétique.
+
+A la suite du choix d'une ville, vous afficherez les stations de celle-ci.
+
+Vous mettrez le numéro de la station, son nom et son adresse. 
+
+Vous indiquerez si la location par carte bancaire est possible ou non.
+
+Suivant le statut de la station, vous stipulerez que la station est ouverte ou non.
+
+Vous indiquerez aussi le nombre de vélos disponibles, les points d'attache disponibles et 
+le nombre total de ces points d'attache.
+
+Bon courage !
