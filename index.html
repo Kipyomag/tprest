@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZVeSRO8Tn8mSmPnnshB5CahVafhbbI5Y&callback=initMap">
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 
-  <title>Vélos</title>
+    <title>Vélos</title>
 </head>
 <body>
-  <header>
-    <h1>Bike Tyson</h1>
-    <h2>L'appli qui en connait un rayon pour muscler vos petits mollets !</h2>
-  </header>
+    <header>
+        <h1>Bike Tyson</h1>
+        <h2>L'appli qui en connait un rayon pour muscler vos petits mollets !</h2>
+    </header>
 
 
     <label>Choississez votre ville:</label>
-      <select id="city"></select>
+    <select id="city"></select>
 
     <div id="map"></div>
     <div id="viz"></div>
@@ -24,6 +26,5 @@
 
 </body>
 <script src="bikes.js" ></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZVeSRO8Tn8mSmPnnshB5CahVafhbbI5Y&callback=initMap"
-    async defer></script>
+
 </html>

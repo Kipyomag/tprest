@@ -12,9 +12,10 @@ html, body {
 .selected {
   padding: 10px;
   margin: 10px;
-  background-color: #c3413d;
+  background-color: rgba(#c3413d, 0.40);
 }
 
 #map {
-  height: 50%;
+  width: auto;
+  height: 400px;
 }
